@@ -312,24 +312,27 @@ def append_footnotes(text: str, notes: list[tuple[str, str, str]], lang: str) ->
 
 
 def remove_existing_anchors(text: str) -> str:
-    return re.sub(r'<a id="[^"]+"></a>\n', "", text)
+    text = re.sub(r'<a id="[^"]+"></a>\n', "", text)
+    return re.sub(r"^(#{1,6} .+?)\s+\{#[^}]+\}$", r"\1", text, flags=re.MULTILINE)
 
 
 def add_heading_anchors(text: str, lang: str, heading_to_anchor: dict[str, str]) -> str:
     lines: list[str] = []
     for line in text.splitlines():
-        match = re.match(r"^(#{2,4})\s+(.+)$", line)
+        match = re.match(r"^(#{2,4})\s+(.+?)(?:\s+\{#[^}]+\})?$", line)
         if not match or line in {"## 目錄", "## Table of Contents"}:
             lines.append(line)
             continue
+        level = match.group(1)
         title = match.group(2).strip()
         english = title
         if lang == "zh":
             english = ZH_HEADING_TO_EN.get(title, title)
         anchor = heading_to_anchor.get(english, slugify(english))
         if anchor:
-            lines.append(f'<a id="{anchor}"></a>')
-        lines.append(line)
+            lines.append(f"{level} {title} {{#{anchor}}}")
+        else:
+            lines.append(f"{level} {title}")
     return "\n".join(lines)
 
 

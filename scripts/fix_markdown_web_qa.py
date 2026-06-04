@@ -526,7 +526,13 @@ def fix_zh() -> None:
     text = text.replace("*圖片來源：美國 DSACMS 下轄 repo-scaffolder 專案", "*圖片來源：美國 DSACMS 下轄 repo-scaffolder 專案*")
     text = text.replace("*圖片來源： Grafana.com", "*圖片來源：Grafana.com*")
     toc_start = text.index("## 目錄")
-    next_anchor = text.index('<a id="introduction"></a>')
+    next_anchor_match = re.search(
+        r'(?m)^(?:<a id="introduction"></a>\n)?## 緒論(?: \{#introduction\})?$',
+        text,
+    )
+    if not next_anchor_match:
+        raise ValueError("Could not find introduction heading in ZH_TW.md")
+    next_anchor = next_anchor_match.start()
     toc = """## 目錄
 
 - [緒論](#introduction)

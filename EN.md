@@ -6,12 +6,12 @@
 
 | Version | Summary of Changes | Source Page Count | Release Date |
 | --- | --- | --- | --- |
-| V1.0 | Initial release | 88 | 114.10.15 |
-| V1.1 | Initial revision (first completed draft) | 97 | 114.12.01 |
-| V2.0 | Second completed draft | 97 | 114.12.05 |
-| V2.1 | Completed revised version | 88 | 114.12.15 |
-| V2.2 | Third completed draft | 89 | 114.12.24 |
-| V1.1 | Added an appendix link to the Open Source AI Definition (OSAID) for reference. | 113 | 115.5.15 |
+| ZH-TW: V1.0 | Initial release of the Traditional Chinese version | 88 | 114.10.15 |
+| ZH-TW: V1.1 | Revised the Traditional Chinese version and completed the first full draft | 97 | 114.12.01 |
+| ZH-TW: V2.0 | Completed the second full draft of the Traditional Chinese version | 97 | 114.12.05 |
+| ZH-TW: V2.1 | Completed the revised Traditional Chinese version | 88 | 114.12.15 |
+| ZH-TW: V2.2<br>EN: V1.0 | Completed the third draft of the Traditional Chinese version and released the first English translation | 127 | 114.12.24 |
+| V2.3 | Added an appendix link to the Open Source AI Definition (OSAID).<br>Updated the Chinese and English versions to use aligned versioning and structure. | 113 | 115.5.15 |
 
 ## Table of Contents
 

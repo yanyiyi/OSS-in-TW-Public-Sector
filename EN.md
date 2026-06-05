@@ -2,15 +2,15 @@
 
 公部門開源軟體應用參考手冊
 
-## Document Revision History {#document-revision-history}
+## Document Revision History <span id="document-revision-history"></span>
 
 | Version | Summary of Changes | Source Page Count | Release Date |
 | --- | --- | --- | --- |
-| V2.2 | Initial release | 127 | 114.12.24 |
-
-
-
-
+| V1.0 | Initial release | 88 | 114.10.15 |
+| V1.1 | Initial revision (first completed draft) | 97 | 114.12.01 |
+| V2.0 | Second completed draft | 97 | 114.12.05 |
+| V2.1 | Completed revised version | 88 | 114.12.15 |
+| V2.2 | Third completed draft | 89 | 114.12.24 |
 
 ## Table of Contents
 
@@ -40,9 +40,9 @@
 - [Appendix IV: Requirements Planning Self-Assessment Checklist](#appendix-iv-requirements-planning-self-assessment-checklist)
 - [Appendix V: License Compliance Assessment Checklist](#appendix-v-license-compliance-assessment-checklist)
 
-## Introduction {#introduction}
+## Introduction <span id="introduction"></span>
 
-### Origin {#origin}
+### Origin <span id="origin"></span>
 
 In an era of flourishing information technology, rapid development in big data and artificial intelligence, and increasingly strict information-security and risk-management requirements, public agencies face rising demands in information-system development and maintenance. These systems must improve internal administrative and operational efficiency while providing the public with more convenient digital services. At the same time, public-sector IT teams often face limited staffing and slower technological innovation. Against this backdrop, open-source software and Public Code offer new possibilities for change.
 
@@ -61,11 +61,11 @@ At the same time, Public Code echoes the spirit of open-source software. Origina
 
 Therefore, the Ministry of Digital Affairs prepared this manual to help agencies understand open-source software and Public Code. The manual assists information-planning personnel in establishing management measures and standards for open-source software, and helps project owners, IT developers, and maintenance teams understand methods for adopting open-source software. In doing so, agencies can respond to international digital-development trends and gradually expand the use of open-source software.
 
-![Preface illustration](assets/en-image6.png)
+![Illustration of people assembling puzzle pieces, representing public-sector collaboration through open-source software and Public Code](assets/en-image6.png "Introduction: open-source software and Public Code as a collaboration opportunity")
 
-## Chapter 1: Introduction to Open-Source Software {#chapter-1-introduction-to-open-source-software}
+## Chapter 1: Introduction to Open-Source Software <span id="chapter-1-introduction-to-open-source-software"></span>
 
-### 1.1 How it started {#1-1-how-it-started}
+### 1.1 How it started <span id="1-1-how-it-started"></span>
 
 From the 1950s to the 1970s, computers were not yet as popular as they are today and nearly all software was written and developed by academic researchers. It was pretty common for computer users to openly share the source code of the software they used to other users and hardware manufacturers. Because of this, knowledge sharing happened very naturally and it also contributed to the rapid evolution of information technology back then. When the early UNIX systems were released in the 1970s, their source code was also released along with them. However, by the late 1960s and early 1970s, as the software functions needed to accompany hardware became more sophisticated, development costs increased accordingly. To prevent software costs from driving up hardware costs, vendors gradually separated software and hardware releases. With the commercialization of software, along with the involvement of patent and copyright systems, many companies began closing off and “protecting” their source code, prohibiting users from freely modifying or distributing it.
 
@@ -97,9 +97,9 @@ The essay contrasts two development models:
 | Bazaar model | Open and distributed development | Source code is open to public participation, with frequent releases and rapid iteration. |
 | Cathedral model | Closed and centralized development | Source code is maintained by a dedicated developer group, with slower releases and greater emphasis on order. |
 
-![Cathedral model illustration](assets/en-image8.png)
+![Red church icon representing the cathedral model, where a dedicated team centrally manages development with slower releases](assets/en-image8.png "Cathedral model: centralized software development")
 
-![Bazaar model illustration](assets/en-image7.jpeg)
+![Bazaar model illustration representing open distributed development, public participation, rapid fixes, and frequent releases](assets/en-image7.jpeg "Bazaar model: open collaboration and rapid iteration")
 
 This essay was also responsible for inspiring Netscape’s decision to release its “Netscape Communicator” as free software in 1998, which was developed via public collaboration. Netscape Communicator eventually evolved into popular software such as Mozilla Firefox and Thunderbird[^5]. As Netscape announced to make its browser’s source code open source, a group of community leaders began to discuss how to make it easier for the business community to accept this software model and introduce the concept and benefits of free software by Free Software Foundation to the commercial software industry. Thanks to the rapid development of the Linux operating system and the Internet in the 90s, many software projects thrived with public collaboration.
 
@@ -141,13 +141,13 @@ Finally, the foundation of AI computing services—deep-learning frameworks such
 
 These examples fully demonstrate that modern digital development is fundamentally built upon free and open-source software.
 
-### 1.2 International Trends and Applications {#1-2-international-trends-and-applications}
+### 1.2 International Trends and Applications <span id="1-2-international-trends-and-applications"></span>
 
 This section includes three examples of government agencies adopting open-source software in other countries, which will help us understand the main trend of the adoption of open-source software among government agencies.
 
-#### 1.2.1 German Federal Government Led the Development of openDesk {#1-2-1-german-federal-government-led-the-development-of-opendesk}
+#### 1.2.1 German Federal Government Led the Development of openDesk <span id="1-2-1-german-federal-government-led-the-development-of-opendesk"></span>
 
-![openDesk feature overview](assets/en-image9.png)
+![openDesk feature overview showing office collaboration, files, email, messaging, meetings, and project-management modules](assets/en-image9.png "openDesk feature overview")
 
 *Image source: openDesk.eu*
 
@@ -164,7 +164,7 @@ openDesk is more than a collaboration tool. It is part of Germany’s digital so
 - Unify and standardize workflows: A unified collaboration platform reduces the operational burden, training cost, and maintenance cost caused by scattered tools, while improving administrative efficiency and interdepartmental collaboration.
 - Support policy and legal goals: The promotion of openDesk echoes the German government’s digital strategy, IT-Planungsrat[^14], and Digital Sovereignty policy, which encourage government agencies to adopt open-source software to preserve autonomy and flexibility.
 
-#### 1.2.2 UN Proposes “Digital Public Goods” {#1-2-2-un-proposes-digital-public-goods}
+#### 1.2.2 UN Proposes “Digital Public Goods” <span id="1-2-2-un-proposes-digital-public-goods"></span>
 
 In addition to the “Public Money, Public Code” initiative promoted by the general public, the United Nations, in its “Secretary-General’s Roadmap for Digital Cooperation” published in 2020, officially proposed the concept of “Digital Public Goods.”
 
@@ -180,7 +180,7 @@ The five Digital Public Goods in the UN’s “Secretary-General’s Roadmap for
 - Open standards
 - Open artificial intelligence models
 
-#### 1.2.3 The US’ Federal Source Code Policy {#1-2-3-the-us-federal-source-code-policy}
+#### 1.2.3 The US’ Federal Source Code Policy <span id="1-2-3-the-us-federal-source-code-policy"></span>
 
 Even though Europe’s digital sovereignty movement has everything to do with multiple measures by the US in recent years, the US itself, it turns out, has also been promoting public code-related policies for years.
 
@@ -188,17 +188,17 @@ In 2016, the Office of Management and Budget (OMB) under the Executive Office of
 
 Federal Acquisition Regulation is the main source for IT service acquisition regulation related to public code. This Regulation was formulated jointly by the Civilian Agency Acquisition Council (CAAC) and the Defense Acquisition Regulations Council (DARC) under the General Services Administration (GSA), with the goal to set a common standard for the principles and procedures for the federal government’s acquisition.
 
-![Federal Source Code Policy memorandum screenshot](assets/en-image10.png)
+![Screenshot of the Federal Source Code Policy memorandum cover page with the policy title and publication details](assets/en-image10.png "Federal Source Code Policy memorandum")
 
 *Resource: https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf*
 
-### 1.3 Basic Concept and Licensing Agreement Types of Open-Source Software {#1-3-basic-concept-and-licensing-agreement-types-of-open-source-software}
+### 1.3 Basic Concept and Licensing Agreement Types of Open-Source Software <span id="1-3-basic-concept-and-licensing-agreement-types-of-open-source-software"></span>
 
 Open-source software’s licensing agreement mainly specifies how the software can be used, modified and distributed. It ensures that the rights of the original developers are respected while promoting the sharing and reuse of source code. Different types of licenses also determine whether modified source code must be made public or whether the same license must be used. In Section [1.1](#1-1-how-it-started), we mentioned that the Open-Source Initiative (OSI) is the organization responsible for promoting and certifying licenses that comply with the Open-Source Definition (OSD). Only software released under OSI-approved licenses may be called open-source software.
 
 The OSI website lists more than 120 OSI-approved licenses! Clearly, with so many types of licenses, developers who do not fully understand the differences will inevitably have great difficulty choosing the appropriate one. As a result, websites such as “Choose an Open-Source License” have emerged to help developers select suitable licenses. We will begin by introducing the six common licenses mentioned on that website.
 
-#### 1.3.1 GPL：AGPL、GPL、LGPL {#1-3-1-gpl-agpl-gpl-lgpl}
+#### 1.3.1 GPL：AGPL、GPL、LGPL <span id="1-3-1-gpl-agpl-gpl-lgpl"></span>
 
 The GPL family can be understood by the strength of its copyleft obligations:
 
@@ -212,27 +212,27 @@ The GNU General Public License (GPL) is the strictest copyleft[^15] license with
 
 In GPL V3, it requires that “complete source code (including covered works and modified versions of the source code, which also include larger works using that covered works) must be provided under the same license. The copyright and license agreements must stipulate that the author(s) have explicitly granted the patent.” Simply put, in a GPL-licensed project, any modification or integration of the source code to a new project, it must be open-source under GPL license. The only exception is when it is treated as an external tool or standard interface without integrating the source code, then the project can maintain the original license.
 
-#### 1.3.2 Mozilla Public License (MPL) v2 {#1-3-2-mozilla-public-license-mpl-v2}
+#### 1.3.2 Mozilla Public License (MPL) v2 <span id="1-3-2-mozilla-public-license-mpl-v2"></span>
 
 In contrast to GPL, MPL is a “weak copyleft” and only applies per-file. In other words, once you modify MPL-licensed files, you must make public the file’s source code. However, if you only put MPL-licensed files with other proprietary files in the same project, other files do not have to become open-source. Unlike GPL, MPL does not “infect” the entire project. MPL only requires that “modified files” to continue to comply
 
 with MPL. MPL aims to encourage business utilization and feedback while maintaining its flexibility. One of the best example is Mozilla Firefox,which allows businesses to modify Firefox without worrying that the entire product need to comply with GPL.
 
-#### 1.3.3 Apache License v2 {#1-3-3-apache-license-v2}
+#### 1.3.3 Apache License v2 <span id="1-3-3-apache-license-v2"></span>
 
 Apache License is a type of “permissive license.” It only requires that copyright and license agreement be included and that contributors explicitly grant patent rights (meaning that if someone contributes source code, they cannot later sue others for using that code based on a “patent.” This is intended to protect users and developers).
 
 But licensed works, their modified versions, and larger works containing them can all be released under different licenses without the requirement to publish the source code. It can be said that Apache License has “no copyleft concept at all.” Users may freely modify, redistribute, and even integrate Apache-licensed source code into proprietary software without having to release the modified or complete project source code. Its goal is to maximize adoption, enabling anyone (including private businesses) to use it freely. For example: Hadoop[^16], Spark[^17] and Kubernetes[^18]—large-scale infrastructure software—almost all use Apache v2 because it allows enterprises to adopt and invest resources in their projects confidently.
 
-#### 1.3.4 MIT License {#1-3-4-mit-license}
+#### 1.3.4 MIT License <span id="1-3-4-mit-license"></span>
 
 MIT is a short and simple permissive license agreement. Its only term is that the copyright notice and permission notice must be included. Under this condition, licensed works, modified versions of source code and larger project containing such works can be published under different licenses without making public the source code. The MIT License is used comprehensively (including Node.js[^19] and Ruby on Rails[^20]).
 
-#### 1.3.5 Boost Software License 1.0 {#1-3-5-boost-software-license-1-0}
+#### 1.3.5 Boost Software License 1.0 <span id="1-3-5-boost-software-license-1-0"></span>
 
 Boost Software License 1.0 is a simple and permissive license, similar to MIT but even more permissive. Its only term is that the copyright notice and license text must be included when distributing the source code (does not apply to the edited binary file). Covered works, modified version of the software (including larger project containing such works) can be published under different licenses without publishing the source code. Boost Software License 1.0 is commonly used in the C++ community, mainly the Boost Library[^21].
 
-#### 1.3.6 The Unlicense {#1-3-6-the-unlicense}
+#### 1.3.6 The Unlicense <span id="1-3-6-the-unlicense"></span>
 
 As the name suggests, this is a “license” with no conditions whatsoever which dedicates works to the public domain. Therefore, unlicensed
 
@@ -249,17 +249,17 @@ The six licenses introduced above can also be placed on a spectrum from strict c
 | Boost Software License 1.0 | Requires copyright and license text when distributing source code, but not when distributing compiled binaries. |
 | The Unlicense | Waives copyright and releases the work into the public domain. |
 
-### 1.4 Open-Source Software and Public Code {#1-4-open-source-software-and-public-code}
+### 1.4 Open-Source Software and Public Code <span id="1-4-open-source-software-and-public-code"></span>
 
 Summarizing each subsection of Chapter One, open-source software refers to software whose source code is publicly available and allows others to use, copy, modify, distribute, and share the technology. Such software enhances system security and controllability. For the public sector, it is an important tool for promoting digital governance and information autonomy.
 
 When the public sector uses open-source software to develop information systems, it also lays the foundation for developing Public Code. The core mission of the public sector is to promote the public interest, and the software and systems it develops, procures or leases are established for the benefit of the public; therefore, public interest should naturally come first. “Public Code” refers to information systems—or portions of their source code—developed using public funds and made publicly available by the government or public sector, allowing society to freely access and reuse them, thereby enhancing policy transparency and civic participation. Through the promotion of Public Code, the government can facilitate cross-agency collaboration, accelerate innovation in digital services and build a more open and trusted digital environment.
 
-![Open-source software and Public Code relationship diagram](assets/zh-tw-image11.png)
+![Diagram showing Public Code built on open-source software, with public money, public code, source-code release, support measures, access, licensing, and use principles](assets/en-image31.png "Relationship between open-source software and Public Code")
 
-## Chapter 2: Open-Source Software Application Evaluation {#chapter-2-open-source-software-application-evaluation}
+## Chapter 2: Open-Source Software Application Evaluation <span id="chapter-2-open-source-software-application-evaluation"></span>
 
-### 2.1 Difference Between Using Open-Source and Proprietary Software {#2-1-difference-between-using-open-source-and-proprietary-software}
+### 2.1 Difference Between Using Open-Source and Proprietary Software <span id="2-1-difference-between-using-open-source-and-proprietary-software"></span>
 
 In the planning process of implementing an information system, choosing between open-source software and proprietary software is often a crucial decision faced by information officers. The two differ significantly in financial cost, security management, implementation methods and license management. Understanding these differences helps agencies better understand the characteristics of open-source software and make the best choice based on actual needs.
 
@@ -281,11 +281,11 @@ The main differences between proprietary and open-source software are as follows
 | License management | License model | Proprietary licenses restrict the scope of use. | Open licenses allow modification and redistribution. |
 | License management | Use restrictions | Protected by copyright law and licensing contracts, usually prohibiting reverse engineering. | A single system may involve multiple open-source licenses and requires license-compatibility review. |
 
-### 2.2 Open-Source Software Benefits and Risks Analysis {#2-2-open-source-software-benefits-and-risks-analysis}
+### 2.2 Open-Source Software Benefits and Risks Analysis <span id="2-2-open-source-software-benefits-and-risks-analysis"></span>
 
 In Section [2.1](#2-1-difference-between-using-open-source-and-proprietary-software), we have comprehensively compared the differences between proprietary and open-source software in many aspects. In this section, we will summarize the benefits and the potential risks of open-source software to help agencies fully grasp the advantages and what to look for when introducing open-source software. This will help them make the best choices that best meet their needs and are suitable for their information environment.
 
-#### 2.2.1 Open-Source Software Benefits {#2-2-1-open-source-software-benefits}
+#### 2.2.1 Open-Source Software Benefits <span id="2-2-1-open-source-software-benefits"></span>
 
 When the public sector uses open-source software for information-system development, it is not only practicing open and transparent digital governance; it also gains clear benefits in cost, security, customization, system integration, vendor choice, and policy value.
 
@@ -298,7 +298,7 @@ When the public sector uses open-source software for information-system developm
 | System integration | Open-source software often adopts standard protocols and formats, making it easier to integrate with existing systems and support cross-platform collaboration. |
 | Customization | Agencies may modify functions, expand modules, and optimize interfaces according to business processes. |
 
-#### 2.2.2 Risk Analysis of Open-Source Software {#2-2-2-risk-analysis-of-open-source-software}
+#### 2.2.2 Risk Analysis of Open-Source Software <span id="2-2-2-risk-analysis-of-open-source-software"></span>
 
 Even though open-source software offers significant benefits, agencies should still conduct a complete risk assessment for selected items during information-system adoption. The risk-assessment process can be integrated with existing risk-management activities, including:
 
@@ -318,11 +318,11 @@ Common risks include:
 | Licensing and legal risk | Open-source licenses such as GPL, MIT, and Apache are legally binding. Agencies should review license compatibility and consult legal advisors when necessary. |
 | User acceptance | Staff may be accustomed to proprietary tools such as Microsoft Office or Google Workspace; training and cultural change remain essential. |
 
-### 2.3 Open-Source Software Implementation Model {#2-3-open-source-software-implementation-model}
+### 2.3 Open-Source Software Implementation Model <span id="2-3-open-source-software-implementation-model"></span>
 
 When implementing open-source software, there are three different strategic pathways available, including: (1) directly adopting existing open-source solutions; (2) identifying the current requirements during preliminary research and forming a new solution by integrating multiple open-source software; or (3) building the system entirely in-house from scratch and then considering subsequent release arrangements due to special requirements. All three approaches and respective considerations will be further introduced in this section.
 
-#### 2.3.1 Development Strategy: Adopt, integrate or self-build? {#2-3-1-development-strategy-adopt-integrate-or-self-build}
+#### 2.3.1 Development Strategy: Adopt, integrate or self-build? <span id="2-3-1-development-strategy-adopt-integrate-or-self-build"></span>
 
 When the public sector uses open-source software for information-system development, it should choose an implementation strategy according to project needs, internal capacity, and long-term governance requirements.
 
@@ -332,9 +332,9 @@ When the public sector uses open-source software for information-system developm
 
 Regardless of the strategy, successful open-source adoption depends on an “Open First” approach. Openness should be treated as a design principle from the beginning. Agencies should assume future open-source release early in the project and prepare the architecture, license management, and documentation accordingly. Components should remain closed only when necessary for security, privacy, or unreleased policy reasons. For layered design, agencies may refer to the UK government guideline “Security Considerations When Coding in the Open”[^23], which reminds us that “security should be designed into openness, not into secrecy.”
 
-![Open First security governance diagram](assets/zh-tw-image22.png)
+![Open First security governance diagram centered on openness, with key and credential separation, automated scanning and review, and responsible vulnerability reporting](assets/en-image32.png "Open First security governance")
 
-#### 2.3.2 Explore Projects and Referenceable Platform {#2-3-2-explore-projects-and-referenceable-platform}
+#### 2.3.2 Explore Projects and Referenceable Platform <span id="2-3-2-explore-projects-and-referenceable-platform"></span>
 
 During the assessment and preliminary research prior to system adoption, agencies or vendors may first look for existing projects that can be reused or adapted. However, searching directly through public code repositories such as GitHub or GitLab is like looking for a needle in a haystack. The following are several renowned Public Code platforms:
 
@@ -349,11 +349,11 @@ When evaluating whether to adopt an existing open-source project, agencies are a
 
 The localization of open-source projects demonstrates the continuity and shareability of Public Code across cultures and communities. Taking Taiwan’s recent transition from the National Development Council to the Ministry of Digital Affairs as an example, a forked application of LibreOffice was adopted and further developed into a government-wide common service: the ODF Document Application Tool. This improved version added standardized Taiwanese official-document formats and commonly used functions. Although localized, civil servants can still refer to the original international LibreOffice community documentation and training resources while benefiting in practice from localized naming, functions, and support.
 
-### 2.4 Open-Source Software Governance System {#2-4-open-source-software-governance-system}
+### 2.4 Open-Source Software Governance System <span id="2-4-open-source-software-governance-system"></span>
 
 The development process for adopting open-source software is no different from that of general software engineering as both include stages such as requirements analysis, design, implementation and testing. The biggest difference lies in the fact that open-source software is connected to a global and continuously evolving collaborative community behind it. When introducing open-source software, an agency should avoid the mindset that this means using free software. Instead, it should focus on how to systematically and strategically incorporate this dynamic open-source ecosystem into the development process. Without a clear internal project governance strategy, it is easy to fall into security, licensing and operational risks or even trigger public-relation crises for the agency.
 
-#### 2.4.1 Open-Source Software Governance System {#2-4-1-open-source-software-governance-system}
+#### 2.4.1 Open-Source Software Governance System <span id="2-4-1-open-source-software-governance-system"></span>
 
 Taiwan’s public sector has long collaborated with external vendors for system development. However, most project teams have yet to establish a comprehensive strategic framework for the use and governance of open-source components. As a result, both agencies and the public find it difficult to clearly understand actual maintenance responsibilities and accountability while agencies struggling to verify the origins and security of open-source components. The core objective of this section is to assist agencies in utilizing various open-source resources within a scope that is “controllable, visible, and traceable,” and to establish clear open-source governance practices. This ensures that system operations and maintenance are no longer merely outsourced tasks but rather public digital infrastructure that can be truly understood, managed and confidently sustained over the long term.
 
@@ -367,7 +367,7 @@ Establishing a complete strategy and mindset for open-source governance is what 
 
 These issues are not merely technical challenges. More importantly, they require strategic governance to address the gaps in risk management. Only after an open-source software policy is formulated can risks be quantified, tracked and managed. The term “policy” here refers to such governance mechanisms and strategies and it also aligns with the Traditional Chinese translation used in international ISO standard documents, thereby facilitating future alignment with international standards and participation in international projects.
 
-#### 2.4.2 Open-Source Software Policy and Software Bill of Materials {#2-4-2-open-source-software-policy-and-software-bill-of-materials}
+#### 2.4.2 Open-Source Software Policy and Software Bill of Materials <span id="2-4-2-open-source-software-policy-and-software-bill-of-materials"></span>
 
 This section will discuss benchmark case studies in the practical implementation of open-source software policies and introduce supporting tools, including the management of Software Bill of Materials (SBOM), as well as the global rise of public-sector Open-Source Program Offices (OSPOs). These are provided to help agencies gradually strengthen their governance mechanisms by referencing the following:
 
@@ -420,11 +420,11 @@ Once open-source policies are gradually established, a role similar to an “Ope
 
 If agencies in Taiwan can consolidate their internal open-source strategies and establish their own OSPOs, they will have the opportunity to join this network, engage directly with global pioneers of digital governance, draw on valuable experience and bring Taiwan’s achievements in digital government onto the international stage.
 
-![FLOSS-PSO public-sector OSPO global map](assets/en-image26.png)
+![FLOSS-PSO global public-sector OSPO map showing community locations across Europe, North America, Asia, and Africa](assets/en-image26.png "FLOSS-PSO global public-sector OSPO network")
 
 *CC By 4.0 “FLOSS-PSO Community Map” Resource: OSPO Alliance*
 
-#### 2.4.3 Introduction to International Open-Source Compliance Standards {#2-4-3-introduction-to-international-open-source-compliance-standards}
+#### 2.4.3 Introduction to International Open-Source Compliance Standards <span id="2-4-3-introduction-to-international-open-source-compliance-standards"></span>
 
 As open-source policies or OSPOs are gradually established, to ensure rigor and credibility in the process of adopting open-source software, it is recommended that agencies further reference and adopt international standards when formulating a verifiable internal process.
 
@@ -494,13 +494,13 @@ Moving from policy formulation to the adoption of international standards is an 
 
 Institutional strategies can’t be built all at once. By gradually establishing a verifiable governance framework aligned with international best practices, Taiwan’s public sector can not only effectively manage risks but also enhance the quality and resilience of digital services while actively participating in global digital innovation and collaboration as a responsible and trustworthy partner.
 
-## Chapter 3: Open-Source Software Implementation {#chapter-3-open-source-software-implementation}
+## Chapter 3: Open-Source Software Implementation <span id="chapter-3-open-source-software-implementation"></span>
 
-### 3.1 Software Development Process: Needs and Cautions when Designing Open-Source Software {#3-1-software-development-process-needs-and-cautions-when-designing-open-source-software}
+### 3.1 Software Development Process: Needs and Cautions when Designing Open-Source Software <span id="3-1-software-development-process-needs-and-cautions-when-designing-open-source-software"></span>
 
 The key during the open-source requirements assessment phase is to confirm the agency’s business objectives and technical requirements. This is combined with a review of existing systems and resources to evaluate the functional suitability, security, community activity and maintenance capabilities of open-source options, as well as to analyze long-term costs and risks, ensuring that the selected open-source technologies or projects can achieve the expected outcomes of the initiative.
 
-#### 3.1.1 Open-Source Software Evaluation and Type Selection Process {#3-1-1-open-source-software-evaluation-and-type-selection-process}
+#### 3.1.1 Open-Source Software Evaluation and Type Selection Process <span id="3-1-1-open-source-software-evaluation-and-type-selection-process"></span>
 
 The open-source software evaluation and selection process is mainly divided into five steps, which are explained one by one below. To ensure completeness in planning, agencies may refer to [Appendix IV](#appendix-iv-requirements-planning-self-assessment-checklist), “Self-Assessment Checklist for Public-Sector Project Adoption of Open-Source Software (or Public Code) Requirements Planning,” to conduct a self-review.
 
@@ -551,21 +551,21 @@ Before adopting or developing any open-source system, risk assessment should be 
 
 Taking Estonia’s X-Road as an example, it uses a highly modular digital platform as the core of its e-government system. The platform itself does not store data; instead, it functions as a secure data-exchange layer that allows systems from different government agencies to securely access each other’s data based on authorization.
 
-![X-Road architecture diagram](assets/en-image27.png)
+![X-Road architecture diagram showing governments, service providers, databases, and security servers connected through a secure data-exchange layer](assets/en-image27.png "X-Road modular data-exchange architecture")
 
 *Image source: X-Road*
 
 Building on the flexible foundation and open-source component selection established during the requirements and design phases, the development and testing stages must continue to uphold the open-source spirit. This includes making effective use of stakeholder resources and automated management mechanisms established earlier, in order to ensure the quality of open-source project development.
 
-### 3.2 Software Development Process: Considerations for Open Source During Development and Testing {#3-2-software-development-process-considerations-for-open-source-during-development-and-testing}
+### 3.2 Software Development Process: Considerations for Open Source During Development and Testing <span id="3-2-software-development-process-considerations-for-open-source-during-development-and-testing"></span>
 
-#### 3.2.1 Upstream First: Avoid “Fork Fatigue” {#3-2-1-upstream-first-avoid-fork-fatigue}
+#### 3.2.1 Upstream First: Avoid “Fork Fatigue” <span id="3-2-1-upstream-first-avoid-fork-fatigue"></span>
 
 The goal of a project is not merely “to make the functionality work,” but more importantly to “ensure that the results can be continuously maintained and are easy for the community to accept and contribute to.” The core principle at this stage is “Upstream First,” ensuring that localized modifications do not result in isolated “islands” detached from the mainstream version.
 
 When modifying or adding functionality to open-source components, the first question should be: “Is this modification generally applicable? Can it be contributed back to the original (upstream) project?” Whenever possible, modifications should be contributed upstream rather than maintaining a local customized version. Long-term maintenance of an independent branch will inevitably lead to growing divergence from the upstream version, making upgrades increasingly difficult and eventually resulting in “fork fatigue.”
 
-#### 3.2.2 Version Control and Automated Integration {#3-2-2-version-control-and-automated-integration}
+#### 3.2.2 Version Control and Automated Integration <span id="3-2-2-version-control-and-automated-integration"></span>
 
 Introducing “automated governance” allows every code submission to be automatically inspected and verified, significantly reducing long-term maintenance risks and strengthening the foundation of trust for cross-departmental or cross-border collaboration. Version control and automated workflows are not merely technical management issues; they are governance tools that ensure project transparency, traceability, and sustainability, enabling future maintainers and audit bodies to clearly understand the system’s evolution.
 
@@ -591,9 +591,9 @@ System go-live is not the end of a project but the beginning of another governan
 
 This section focuses on project acceptance criteria, emphasizing the project’s potential as a sustainable digital public infrastructure. Planning and execution at this stage will determine whether a publicly funded project ultimately becomes a truly public digital asset that can continuously evolve and be comprehensively reused or merely a one-off deliverable that quickly fades once the contract ends. We will examine three key acceptance priorities—transferability, readability, and sustainability—along with concrete and actionable guidelines.
 
-### 3.3 Software Development Process: Open-Source Considerations for Go-Live and Acceptance {#3-3-software-development-process-open-source-considerations-for-go-live-and-acceptance}
+### 3.3 Software Development Process: Open-Source Considerations for Go-Live and Acceptance <span id="3-3-software-development-process-open-source-considerations-for-go-live-and-acceptance"></span>
 
-#### 3.3.1 Open-Source Software License Compliance Review (Checklist) and Risk Management Recommendations {#3-3-1-open-source-software-license-compliance-review-checklist-and-risk-management-recommendations}
+#### 3.3.1 Open-Source Software License Compliance Review (Checklist) and Risk Management Recommendations <span id="3-3-1-open-source-software-license-compliance-review-checklist-and-risk-management-recommendations"></span>
 
 For open-source software adopted within a project, it is recommended to use the “License Compliance Assessment Checklist for Public-Sector Use of Open-Source Software (or Public Code)” as the review tool (see [Appendix V](#appendix-v-license-compliance-assessment-checklist), “License Compliance Assessment Checklist for Public-Sector Use of Open-Source Software (or Public Code)”). The checklist primarily includes three sections: basic project information, review items, and development outcomes as public code. It assists agencies in identifying risks associated with the use of open-source software and in planning appropriate risk-control measures.
 
@@ -603,7 +603,7 @@ Based on the results of the checklist, agencies should pay particular attention 
 - Integration with proprietary software: Since the GPL mandates source-code disclosure, integrating GPL-licensed code into a closed-source system that provides external services without releasing the source code may constitute a license violation.
 - Open-source release and maintenance after go-live: If a system is released as Public Code, appropriate resources should be planned to handle issues, continuously monitor community activity and establish version upgrade mechanisms and strategies (see Chapter 4 for details).
 
-#### 3.3.2 The core of acceptance: Transferability, Readability and Sustainability {#3-3-2-the-core-of-acceptance-transferability-readability-and-sustainability}
+#### 3.3.2 The core of acceptance: Transferability, Readability and Sustainability <span id="3-3-2-the-core-of-acceptance-transferability-readability-and-sustainability"></span>
 
 In the context of open-source projects, the focus of acceptance must go beyond functional conformance and deeply assess the project’s long-term health and autonomy. Transferability, readability and sustainability form the core of modern acceptance, ensuring that public investment generates long-term social value rather than being locked into short-term technical delivery. Key acceptance points are as follows:
 
@@ -632,7 +632,7 @@ A complete and final compliance documentation package serves as the ultimate pro
 - License compliance report
 - Software Bill of Materials (SBOM)
 
-#### 3.3.3 Aligning with International Standards: Assessing Project Completion Using the Public Code Standard Framework {#3-3-3-aligning-with-international-standards-assessing-project-completion-using-the-public-code-standard-framework}
+#### 3.3.3 Aligning with International Standards: Assessing Project Completion Using the Public Code Standard Framework <span id="3-3-3-aligning-with-international-standards-assessing-project-completion-using-the-public-code-standard-framework"></span>
 
 To make acceptance criteria more objective and internationally aligned, project managers may map the various deliverables described above to the specific provisions of the Standard for Public Code[^28] (SfPC). SfPC is a quality framework for open-source projects designed specifically for the public sector, with the goal of ensuring that Public Code is reusable, sustainable and capable of collaboration. Aligning acceptance items with SfPC not only enables a systematic evaluation of a project’s open-source maturity, but also demonstrates to domestic and international communities that the project adheres to global best practices.
 
@@ -640,9 +640,9 @@ The ultimate goal of adopting open source is to transform a single development o
 
 This section explores how, from a governance perspective, a completed open-source project can be elevated into a Public Code asset with long-term value and impact.
 
-### 3.4 Releasing Development Outcomes as Open Source {#3-4-releasing-development-outcomes-as-open-source}
+### 3.4 Releasing Development Outcomes as Open Source <span id="3-4-releasing-development-outcomes-as-open-source"></span>
 
-#### 3.4.1 Key Governance Considerations for Public Code {#3-4-1-key-governance-considerations-for-public-code}
+#### 3.4.1 Key Governance Considerations for Public Code <span id="3-4-1-key-governance-considerations-for-public-code"></span>
 
 For a project to evolve from being merely “open-source” into “Public Code,” careful planning at the governance level is essential. This means that project quality, documentation, maintenance commitments, and community interaction models must all be assessed in terms of their future maintenance level and project positioning. Consideration must also be given to the completeness of documentation and file structures at the time of release, with the goal of fostering the broadest possible trust and collaboration.
 
@@ -655,7 +655,7 @@ For a project to evolve from being merely “open-source” into “Public Code,
 | Do contributors outside your organization also participate in maintenance and operations? |
 | Do contributors outside your organization also participate in setting future project goals? |
 
-![Public code maintenance tier diagram](assets/en-image28.png)
+![Public Code maintenance-tier diagram using a tree-level metaphor to show archive-only, official long-term support, and community stewardship levels](assets/en-image28.png "Public Code maintenance tiers")
 
 *Image source: The repo-scaffolder project under DSACMS in the United States*
 
@@ -669,7 +669,7 @@ Not all Public Code requires perpetual official maintenance by the government. A
 
 Making maintenance-tier decisions during project acceptance is a proactive risk-management strategy. Every government IT project should have a long-term strategic perspective and clearly define the scope of its long-term commitments. Publicly declaring a project as “archived” is not an admission of failure, but a responsible action that sets clear expectations and clarifies the government’s maintenance responsibilities.
 
-#### 3.4.2 Establishing Clear and Friendly Community Contribution Processes {#3-4-2-establishing-clear-and-friendly-community-contribution-processes}
+#### 3.4.2 Establishing Clear and Friendly Community Contribution Processes <span id="3-4-2-establishing-clear-and-friendly-community-contribution-processes"></span>
 
 Regardless of whether a project is Tier 1 or Tier 2, if it seeks to benefit from external community contributions, it must establish a clear, transparent and welcoming contribution process. This not only attracts valuable external contributions but also ensures that all incoming code meets quality and security standards. A sound community contribution mechanism should include the following elements:
 
@@ -685,13 +685,13 @@ The code repository should include key governance documents to set clear codes o
 | Issue tracking | All bug reports, feature proposals, and technical discussions should be conducted through a public issue-tracking system. |
 | Code review | All code contributions must be reviewed by at least one maintainer to verify architectural soundness, coding style, and security standards before being merged into the main branch. |
 
-#### 3.4.3 Active community support and engagement {#3-4-3-active-community-support-and-engagement}
+#### 3.4.3 Active community support and engagement <span id="3-4-3-active-community-support-and-engagement"></span>
 
 Building a successful community cannot rely solely on sitting and waiting for contributions. Instead, agencies should proactively provide multiple feedback channels (such as email and forums), encourage developers to share open-source examples of how they use the data and—where resources permit—regularly host events such as hackathons to actively engage with the developer community. In doing so, they will build an energetic ecosystem around open-source data. This proactive support is key to transforming “users” into “contributors.”
 
-## Chapter 4: Open-Source Software Maintenance and Operations {#chapter-4-open-source-software-maintenance-and-operations}
+## Chapter 4: Open-Source Software Maintenance and Operations <span id="chapter-4-open-source-software-maintenance-and-operations"></span>
 
-### 4.1 Open-Source Software Operations and Maintenance {#4-1-open-source-software-operations-and-maintenance}
+### 4.1 Open-Source Software Operations and Maintenance <span id="4-1-open-source-software-operations-and-maintenance"></span>
 
 This chapter is recommended as priority reading for IT operations and maintenance personnel at all agencies.
 
@@ -707,17 +707,17 @@ Although open-source software may differ in technical architecture and tool choi
 | Version Control | Management of change log to support collaboration and maintain version consistency. |
 | Documentation Management | Maintenance of system documentation to ensure completeness, traceability and ease of reference. |
 
-#### 4.1.1 System Monitoring {#4-1-1-system-monitoring}
+#### 4.1.1 System Monitoring <span id="4-1-1-system-monitoring"></span>
 
 After a system goes live, its operational status must be monitored in real time to enable rapid response to anomalies. System monitoring includes continuous collection of metrics such as CPU usage, RAM usage, hard drive I/O and network traffic, as well as the configuration of alert thresholds—for example, automatically notifying O&M personnel when service response times exceed limits or error rates spike abnormally.
 
 If an agency has no existing monitoring tools, it may consider adopting an open-source monitoring stack designed for cloud-native architectures, such as Prometheus paired with the visualization dashboard Grafana. Prometheus provides a powerful time-series database and query language (PromQL). Its core capabilities include data collection, time-series storage, alert rule configuration and flexible scalability. It also supports containerized environments such as Kubernetes and Docker—making it suitable for government agencies gradually adopting microservices architectures. Grafana is an open-source visualization tool commonly used with Prometheus to display monitoring data and build dashboards. It also supports multiple data sources, including Elasticsearch, MySQL, PostgreSQL and InfluxDB, making it well suited for integrating heterogeneous system data. Additionally, Grafana allows access control by user role, enabling layered internal management.
 
-![Grafana monitoring dashboard screenshot](assets/en-image29.png)
+![Grafana monitoring dashboard screenshot with time-series charts, status indicators, and multiple monitoring panels](assets/en-image29.png "Grafana system monitoring dashboard")
 
 *Image source: Grafana.com*
 
-#### 4.1.2 Log Management {#4-1-2-log-management}
+#### 4.1.2 Log Management <span id="4-1-2-log-management"></span>
 
 System logs record the historical events and operational traces of systems and applications. They are used for troubleshooting, security audits and behavior analysis. For example, information such as when users log in, API error responses or server anomalies is a core source of data for system operations and cybersecurity audits. Log management should centrally collect logs from the application layer, system layer and security events and enable visual analysis. Agencies should, in accordance with cybersecurity policies, define log retention periods and access controls and establish log-tracking procedures for abnormal events, ensuring that logs can be quickly located and investigated in cases of unauthorized access or system errors.
 
@@ -732,19 +732,19 @@ The key point of log management is to use centralized collection and structured 
 | Compliance and auditing | Retain necessary log records to meet security and legal requirements (e.g., GDPR, ISO 27001). |
 | Real-time search and analysis | Quickly locate specific errors or patterns, such as sources of abnormal traffic. |
 
-#### 4.1.3 Capacity Management {#4-1-3-capacity-management}
+#### 4.1.3 Capacity Management <span id="4-1-3-capacity-management"></span>
 
 The purpose of capacity management is to assess and tune system resources to ensure that they effectively support business needs while remaining flexible for future growth. The scope typically includes CPU, memory, storage and network bandwidth. Through continuous monitoring tools, operational metrics are collected and. By using historical data and statistical models, future resource demands are predicted to identify potential bottlenecks or risks. This enables resource optimization, capacity expansion planning or the introduction of automated scaling mechanisms (such as auto-scaling).
 
 Compared to proprietary systems that often provide all-in-one capacity management solutions, open-source systems usually adopt a modular architecture, selecting and integrating multiple tools based on actual needs—for example, Prometheus and Grafana mentioned earlier. While this approach places higher demands on the technical team’s familiarity and integration capabilities, its flexibility allows agencies to rapidly adjust monitoring metrics and capacity strategies according to business requirements.
 
-#### 4.1.4 Information Security Management {#4-1-4-information-security-management}
+#### 4.1.4 Information Security Management <span id="4-1-4-information-security-management"></span>
 
 Information security management refers to protecting system resources and data confidentiality, integrity and availability through a combination of policies, technologies and processes. Common measures include identity authentication, access control, data encryption, intrusion detection, firewall configuration, vulnerability scanning and log auditing. These measures prevent unauthorized access, malicious attacks and data breaches while ensuring that the system can detect, respond to and recover from security threats.
 
-![Key elements of information security management](assets/en-image1.png)
+![Diagram summarizing information-security management elements including identity authentication, access control, data encryption, firewall configuration, intrusion detection, vulnerability management, and log auditing](assets/en-image33.png "Key elements of information security management")
 
-#### 4.1.5 Functional Maintenance {#4-1-5-functional-maintenance}
+#### 4.1.5 Functional Maintenance <span id="4-1-5-functional-maintenance"></span>
 
 Functional maintenance of an information system refers to the ongoing inspection of existing system functions, bug fixes and feature optimization to ensure that the system operates stably and accurately supports business needs while continuously improving user experience. In addition, as business processes evolve and expand, system functionality must have the flexibility for adjustments and expansions to meet new requirements. Functional maintenance also bears responsibility for information security and compliance. Through regular updates and patches, it ensures that the system meets relevant regulations and security standards.
 
@@ -761,7 +761,7 @@ Since open-source software is typically community-driven, its functional mainten
 | PR review and merge | Maintainers review the PR to ensure correctness, merge it into the main branch, and close the related issue. |
 | Release and documentation | The fix is included in the next release and recorded in the changelog for user reference. |
 
-#### 4.1.6 Version Control {#4-1-6-version-control}
+#### 4.1.6 Version Control <span id="4-1-6-version-control"></span>
 
 The purpose of version control is to ensure system stability, traceability and consistency throughout ongoing maintenance. Effective version control enables agencies to clearly track the content, timing and impact of each system change and to quickly roll back to a stable version in case of anomalies, thereby reducing operational risk.
 
@@ -780,17 +780,17 @@ with tools such as Git or SVN and continuous integration platforms (e.g., Jenkin
 7. Merge PR
 8. Tag and release version
 
-#### 4.1.7 Documentation Management {#4-1-7-documentation-management}
+#### 4.1.7 Documentation Management <span id="4-1-7-documentation-management"></span>
 
 In the development and operation of information systems, documentation management is not only a medium for technical communication but also a critical foundation for quality control, knowledge transfer and compliance audits. Effective documentation management ensures consistency, traceability, and transparency in the development process, while reducing risks from personnel changes or system modifications.
 
 Documentation management spans the entire system development lifecycle, including requirements analysis, system design, software development, testing and acceptance, deployment, and operational support. Documents such as requirement specifications, design diagrams, test plans, change logs and user manuals should all be included in a unified documentation management mechanism. Each document should have clear identifiers, version labels, authorship, and dates, be regularly reviewed and maintained and be organized according to standardized formats and naming conventions. Documentation should also be paired with version control tools and collaboration platforms to ensure that update histories are traceable, multi-party collaboration is supported and agency review and approval processes are properly enforced.
 
-![Documentation management and delivery matrix](assets/en-image30.png)
+![Documentation management and delivery matrix organizing required documents across requirements, design, development, testing, deployment, and operations phases](assets/en-image30.png "Documentation management and delivery matrix")
 
-![Documentation importance legend](assets/zh-tw-image29.png)
+![Documentation importance legend using three colors to identify required core documents, recommended efficiency documents, and context-specific documents](assets/en-image34.png "Documentation importance legend")
 
-### 4.2 Sustainable Operations {#4-2-sustainable-operations}
+### 4.2 Sustainable Operations <span id="4-2-sustainable-operations"></span>
 
 To support government agencies at all levels in effectively adopting and maintaining open-source systems over the long term, sustainable operations encompass five key areas: talent development, community engagement, technology upgrades, license compliance, and public contribution. These serve as reference pillars for agencies planning and executing open-source adoption, helping them establish a robust open-source governance framework and promoting innovation and sharing in government digital services.
 
@@ -802,7 +802,7 @@ To support government agencies at all levels in effectively adopting and maintai
 - License management and code reuse.
 - Connecting communities and public code platforms.
 
-#### 4.2.1 Open-Source talent development and culture building {#4-2-1-open-source-talent-development-and-culture-building}
+#### 4.2.1 Open-Source talent development and culture building <span id="4-2-1-open-source-talent-development-and-culture-building"></span>
 
 The sustainable promotion of open-source software begins with establishing a solid talent pool and an open and open-source-oriented development culture. This includes government staff and partner vendors’ understanding of open-source fundamentals, license comprehension, hands-on experience and an open mindset.
 
@@ -814,7 +814,7 @@ To this end, the Ministry of Digital Affairs will continue to offer related trai
 | Advanced Public Code Courses 201 | Advanced Public Code Courses 202 | Advanced Public Code Courses 203 | Advanced Public Code Courses 204 |
 | International public code case studies and policies. | Domestic public-code and open-source case studies. | Introduction to public-code procurement documents: requirement assessment and license terms. | International standards for public-code vendor management. |
 
-#### 4.2.2 Community Activity Monitoring and Continuous Integration {#4-2-2-community-activity-monitoring-and-continuous-integration}
+#### 4.2.2 Community Activity Monitoring and Continuous Integration <span id="4-2-2-community-activity-monitoring-and-continuous-integration"></span>
 
 The vitality of open-source software comes from active communities. Regularly reviewing community announcements, security patches, and feature expansions of adopted open-source projects is critical to maintaining system security and stability. Open-source communities typically communicate and collaborate through platforms such as
 
@@ -824,13 +824,13 @@ By continuously monitoring these community activities, agencies can promptly ide
 
 Beyond passive notification reception, agencies using open-source software should establish routine tracking mechanisms to monitor version updates and synchronize or upgrade versions as needed. These mechanisms can be paired with automated tools to regularly check dependency updates and use CI pipelines for testing and validation, ensuring that upgrades do not affect existing functionality and will improve overall operational stability and flexibility.
 
-#### 4.2.3 Establishing System Management and Upgrade Strategies {#4-2-3-establishing-system-management-and-upgrade-strategies}
+#### 4.2.3 Establishing System Management and Upgrade Strategies <span id="4-2-3-establishing-system-management-and-upgrade-strategies"></span>
 
 Before deploying new versions, agencies should comprehensively review their compatibility with existing system architectures, database schemas, API interfaces and third-party components. If incompatibilities are found, agencies may leverage the modifiable nature of open-source software to implement code fixes and adjustments independently, without waiting for upstream releases. This self-maintenance capability is one of the strengths of open source and requires corresponding technical capacity building and collaboration mechanisms.
 
 Upgrade strategies should follow the principle of “controlled risk and stable functionality,” supported by tools and automated testing frameworks to ensure each upgrade is thoroughly tested and can be quickly rolled back. Particular caution is required for critical components (such as databases and authentication systems) to avoid dependency conflicts. Regular reviews of project maintenance status and community activity also help assess whether agencies should continue use this project or should consider other alternatives.
 
-#### 4.2.4 License Management and Code Reuse {#4-2-4-license-management-and-code-reuse}
+#### 4.2.4 License Management and Code Reuse <span id="4-2-4-license-management-and-code-reuse"></span>
 
 License management is a critical aspect of information system governance as different open-source licenses impose varying rights and obligations regarding use, modification, distribution and commercialization. Improper management may result in legal or compliance risks, especially when an agency is integrating open-source components and therefore must pay extra attention to license compatibility and obligations.
 
@@ -838,11 +838,11 @@ It is therefore recommended to establish a license management mechanism that inc
 
 Through these measures, agencies can enjoy the flexibility and innovation benefits of open source while reducing legal risks and ensuring all components meet organizational compliance and security requirements.
 
-#### 4.2.5 Connecting Communities and Public Code Platforms {#4-2-5-connecting-communities-and-public-code-platforms}
+#### 4.2.5 Connecting Communities and Public Code Platforms <span id="4-2-5-connecting-communities-and-public-code-platforms"></span>
 
 “Walking alone is fast; walking together goes far.” To promote a positive open-source ecosystem cycle, agencies should consider contributing results back to upstream communities or publishing them on government public-code platforms after major feature development or fixes. This demonstrates governmental support for open-source principles, enhances technical transparency and public participation and further strengthens the foundation for sustainable open-source development.
 
-### 4.3 Conclusion {#4-3-conclusion}
+### 4.3 Conclusion <span id="4-3-conclusion"></span>
 
 The adoption and development of open-source software have become mainstream practices in information-software work. Internationally, many public-sector organizations have invested heavily in the development and application of open-source software in order to build globally shared digital public goods or strengthen digital sovereignty. They have also gradually established best practices for open-source governance systems, ensuring open-source license compliance, emphasizing information security and privacy, and taking operational efficiency and sustainability into account.
 
@@ -850,7 +850,7 @@ The adoption of open-source software and Public Code is not merely a technical c
 
 Through the international application cases, evaluation methods, adoption processes for open-source software and Public Code, and the management priorities and sustainability strategies for maintaining open-source software compiled in this manual, we hope to help agencies promote open-source applications while balancing technical benefits with the sustainable value created after license compliance. Furthermore, guided by this manual, agencies in Taiwan can strengthen their capacity to adopt open-source software, promote the release of common open-source components by the government, connect with the latest international public-sector trends in open-source software application, and jointly build a secure, resilient and shared digital public environment.
 
-## Appendix I: Terminology {#appendix-i-terminology}
+## Appendix I: Terminology <span id="appendix-i-terminology"></span>
 
 | Number | Term | Description |
 | --- | --- | --- |
@@ -866,7 +866,7 @@ Through the international application cases, evaluation methods, adoption proces
 | 10 | Version Control | A process for managing changes to source code and related files. Changes are typically identified by codes known as “revision numbers” (or similar terms). Each revision records the time of the change and the author, making it easy to trace the evolution of the code. Version control systems can be used to compare differences between versions and to review how content changes over time. |
 | 11 | Contribute Guidelines | Guidelines intended to direct how contributions are made to a code repository or project, including processes and rules for submitting new features, fixing bugs and proposing improvements. These are commonly documented in a CONTRIBUTING.md file. |
 
-## Appendix II: FAQ {#appendix-ii-faq}
+## Appendix II: FAQ <span id="appendix-ii-faq"></span>
 
 Since 2023, the Ministry of Digital Affairs has organized seminars and related activities to introduce and exchange ideas on the concept of Public Code and its adoption by the public sector. The table below includes frequently-asked questions and their responses from these seminars based on the real-world experience shared in these activities.
 
@@ -883,7 +883,7 @@ Since 2023, the Ministry of Digital Affairs has organized seminars and related a
 | 9 | How are responsibilities defined when using Public Code? | The open-source licenses used by Public Code typically include disclaimers. This means that government agencies and IT vendors reusing Public Code remain responsible for the information security, copyright and operation of the systems they develop. |
 | 10 | How are projects on the Public Code platform maintained? | During the period when Public Code is open to the public, in addition to the government agency that provides the code, others may also submit code modification proposals through the code repository (e.g., GitHub) as part of civic participation in the realm of code. |
 
-## Appendix III: Links {#appendix-iii-links}
+## Appendix III: Links <span id="appendix-iii-links"></span>
 
 Public Code Platform by MODA:
 
@@ -905,7 +905,7 @@ Real-world case study of open-source software and public code-OpenDesk:
 
 https://www.openDesk.eu/en/about
 
-## Appendix IV: Requirements Planning Self-Assessment Checklist {#appendix-iv-requirements-planning-self-assessment-checklist}
+## Appendix IV: Requirements Planning Self-Assessment Checklist <span id="appendix-iv-requirements-planning-self-assessment-checklist"></span>
 
 ### Self-Assessment Checklist for Public-Sector Projects Introducing Open-Source Software or Public Code
 
@@ -969,7 +969,7 @@ IT project officers may, based on their agency’s needs, refer to the assessmen
 | □ Maintenance tiering and governance strategy | Allows the agency to clearly position the project and its future governance model at acceptance, preventing security risks caused by abandoned maintenance | The requirements document should explicitly state:<br><br>“Based on project criticality, available resources, and community activity, the vendor must propose a maintenance tier, including active maintenance, security maintenance, or archived status, along with maintenance scope and recommended resource allocation.” |
 | □ Community engagement and post-release promotion strategy | Transforms the project into a sustainable public code ecosystem, increasing adoption rates and external support | The requirements document should explicitly state:<br><br>“The vendor may propose community engagement approaches after the project goes open source, such as response strategies, instructional documentation, technical articles, and sample code, and may also consider promotional activities, including hackathons, seminars, and contribution workshops, as creative outreach or value-added service options.” |
 
-## Appendix V: License Compliance Assessment Checklist {#appendix-v-license-compliance-assessment-checklist}
+## Appendix V: License Compliance Assessment Checklist <span id="appendix-v-license-compliance-assessment-checklist"></span>
 
 ### License Compliance Assessment Checklist for Public-Sector Use of Open-Source Software or Public Code
 

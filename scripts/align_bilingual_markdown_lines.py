@@ -30,11 +30,14 @@ def block_signature(block: list[str]) -> str:
     if first.startswith("# "):
         return "TITLE"
 
-    heading = re.match(r"^(#{2,6})\s+(.+?)(?:\s+\{#([^}]+)\})?$", first)
+    heading = re.match(
+        r"^(#{2,6})\s+(.+?)(?:\s+\{#([^}]+)\}|\s+<span id=\"([^\"]+)\"></span>)?$",
+        first,
+    )
     if heading:
         level = len(heading.group(1))
         title = heading.group(2)
-        anchor = heading.group(3)
+        anchor = heading.group(3) or heading.group(4)
         if anchor:
             return f"H:{anchor}"
         if "文件修訂歷史" in title or "Document Revision History" in title:

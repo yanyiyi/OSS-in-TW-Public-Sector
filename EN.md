@@ -11,6 +11,7 @@
 | V2.0 | Second completed draft | 97 | 114.12.05 |
 | V2.1 | Completed revised version | 88 | 114.12.15 |
 | V2.2 | Third completed draft | 89 | 114.12.24 |
+| V1.1 | Added an appendix link to the Open Source AI Definition (OSAID) for reference. | 113 | 115.5.15 |
 
 ## Table of Contents
 
@@ -180,6 +181,8 @@ The five Digital Public Goods in the UN’s “Secretary-General’s Roadmap for
 - Open standards
 - Open artificial intelligence models
 
+![Diagram of the five digital public goods in the UN roadmap: open data, open-source software, open content, open standards, and open artificial intelligence](assets/en-image12.png "Five digital public goods in the UN roadmap")
+
 #### 1.2.3 The US’ Federal Source Code Policy <span id="1-2-3-the-us-federal-source-code-policy"></span>
 
 Even though Europe’s digital sovereignty movement has everything to do with multiple measures by the US in recent years, the US itself, it turns out, has also been promoting public code-related policies for years.
@@ -207,6 +210,8 @@ The GPL family can be understood by the strength of its copyleft obligations:
 | AGPL | Strongest | Web services using AGPL-licensed source code must publish the complete corresponding source code. |
 | GPL | Strong | Modified or integrated GPL source code must be released under the same license when distributed. |
 | LGPL | Weaker | Files that only use LGPL-licensed code through a library interface generally do not require the entire project to be open sourced. |
+
+![GPL-family copyright-protection strength diagram comparing LGPL, GPL, and AGPL from permissive to strong obligations](assets/en-image13.png "GPL-family copyright-protection strength")
 
 The GNU General Public License (GPL) is the strictest copyleft[^15] license with the strongest protection. However, after years of evolution, 3 GPL variants appeared in response to the different computer and Internet environment. They are: AGPL (the strongest), GPL (the standard) and LGPL (the weaker license).
 
@@ -249,13 +254,15 @@ The six licenses introduced above can also be placed on a spectrum from strict c
 | Boost Software License 1.0 | Requires copyright and license text when distributing source code, but not when distributing compiled binaries. |
 | The Unlicense | Waives copyright and releases the work into the public domain. |
 
+![Open-source license spectrum diagram ranking GPL, MPL v2, Apache License v2, MIT License, Boost Software License 1.0, and The Unlicense by copyright-protection strength](assets/en-image14.png "Open-source license copyright-protection spectrum")
+
 ### 1.4 Open-Source Software and Public Code <span id="1-4-open-source-software-and-public-code"></span>
 
 Summarizing each subsection of Chapter One, open-source software refers to software whose source code is publicly available and allows others to use, copy, modify, distribute, and share the technology. Such software enhances system security and controllability. For the public sector, it is an important tool for promoting digital governance and information autonomy.
 
 When the public sector uses open-source software to develop information systems, it also lays the foundation for developing Public Code. The core mission of the public sector is to promote the public interest, and the software and systems it develops, procures or leases are established for the benefit of the public; therefore, public interest should naturally come first. “Public Code” refers to information systems—or portions of their source code—developed using public funds and made publicly available by the government or public sector, allowing society to freely access and reuse them, thereby enhancing policy transparency and civic participation. Through the promotion of Public Code, the government can facilitate cross-agency collaboration, accelerate innovation in digital services and build a more open and trusted digital environment.
 
-![Diagram showing Public Code built on open-source software, with public money, public code, source-code release, support measures, access, licensing, and use principles](assets/en-image31.png "Relationship between open-source software and Public Code")
+![Diagram showing Public Code built on open-source software, with public money, public code, source-code release, support measures, access, licensing, and use principles](assets/en-image11.png "Relationship between open-source software and Public Code")
 
 ## Chapter 2: Open-Source Software Application Evaluation <span id="chapter-2-open-source-software-application-evaluation"></span>
 
@@ -298,6 +305,8 @@ When the public sector uses open-source software for information-system developm
 | System integration | Open-source software often adopts standard protocols and formats, making it easier to integrate with existing systems and support cross-platform collaboration. |
 | Customization | Agencies may modify functions, expand modules, and optimize interfaces according to business processes. |
 
+![Open-source software benefits diagram centered on six benefits: policy and public value, financial predictability, vendor choice flexibility, security-management autonomy, system integrability, and customization](assets/en-image15.png "Open-source software benefits")
+
 #### 2.2.2 Risk Analysis of Open-Source Software <span id="2-2-2-risk-analysis-of-open-source-software"></span>
 
 Even though open-source software offers significant benefits, agencies should still conduct a complete risk assessment for selected items during information-system adoption. The risk-assessment process can be integrated with existing risk-management activities, including:
@@ -309,6 +318,8 @@ Even though open-source software offers significant benefits, agencies should st
 - (3) Prepare response measures for risk issues whose scores exceed the acceptable risk value.
 
 Common risks include:
+
+![Line illustration of a person holding a workflow diagram and document, representing transition and vendor-maintenance risks in open-source adoption](assets/en-image16.png "Open-source software risk illustration")
 
 | Risk | Description |
 | --- | --- |
@@ -771,6 +782,8 @@ with tools such as Git or SVN and continuous integration platforms (e.g., Jenkin
 
 ##### GitHub Version Control Process Diagram
 
+![GitHub version-control process diagram with eight steps from creating an issue and branch through commit, push, pull request, code review, merge, and release](assets/en-image17.png "GitHub version-control process diagram")
+
 1. Create a branch
 2. Develop and commit
 3. Push to GitHub
@@ -896,6 +909,10 @@ https://standard.publiccode.net/
 Open Source Initiative:
 
 https://opensource.org/
+
+Open Source AI Definition:
+
+https://opensource.org/ai/open-source-ai-definition
 
 OSI Approved Licenses:
 

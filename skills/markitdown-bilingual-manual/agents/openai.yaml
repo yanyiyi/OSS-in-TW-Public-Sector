@@ -1,0 +1,4 @@
+interface:
+  display_name: "MarkItDown Bilingual Manual"
+  short_description: "Convert MarkItDown output into aligned bilingual manuals."
+  default_prompt: "Use this skill to turn MarkItDown-generated Markdown from bilingual source decks or PDFs into polished Traditional Chinese and English manuals with matching line structure and accessible images."

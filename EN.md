@@ -666,7 +666,7 @@ For a project to evolve from being merely “open-source” into “Public Code,
 | Do contributors outside your organization also participate in maintenance and operations? |
 | Do contributors outside your organization also participate in setting future project goals? |
 
-![Public Code maintenance-tier diagram using a tree-level metaphor to show archive-only, official long-term support, and community stewardship levels](assets/en-image28.png "Public Code maintenance tiers")
+![Public Code maintenance-tier diagram using a tree-level metaphor to show archive-only, official long-term support, and community stewardship levels](assets/en-image25.png "Public Code maintenance tiers")
 
 *Image source: The repo-scaffolder project under DSACMS in the United States*
 

@@ -2,16 +2,20 @@
 
 公部門開源軟體應用參考手冊
 
+Alternative language version: [Traditional Chinese version](ZH_TW.md)
+
+Accessibility note: Checklist tables use the empty square symbol (□) to indicate an unchecked checkbox option. Revision dates use Gregorian dates first, followed by the Republic of China (ROC) calendar date in parentheses.
+
 ## Document Revision History <span id="document-revision-history"></span>
 
 | Version | Summary of Changes | Source Page Count | Release Date |
 | --- | --- | --- | --- |
-| ZH-TW: V1.0 | Initial release of the Traditional Chinese version | 88 | 114.10.15 |
-| ZH-TW: V1.1 | Revised the Traditional Chinese version and completed the first full draft | 97 | 114.12.01 |
-| ZH-TW: V2.0 | Completed the second full draft of the Traditional Chinese version | 97 | 114.12.05 |
-| ZH-TW: V2.1 | Completed the revised Traditional Chinese version | 88 | 114.12.15 |
-| ZH-TW: V2.2<br>EN: V1.0 | Completed the third draft of the Traditional Chinese version and released the first English translation | 127 | 114.12.24 |
-| V2.3 | Added an appendix link to the Open Source AI Definition (OSAID).<br>Updated the Chinese and English versions to use aligned versioning and structure. | 113 | 115.5.15 |
+| ZH-TW: V1.0 | Initial release of the Traditional Chinese version | 88 | 2025-10-15 (ROC year 114, October 15) |
+| ZH-TW: V1.1 | Revised the Traditional Chinese version and completed the first full draft | 97 | 2025-12-01 (ROC year 114, December 1) |
+| ZH-TW: V2.0 | Completed the second full draft of the Traditional Chinese version | 97 | 2025-12-05 (ROC year 114, December 5) |
+| ZH-TW: V2.1 | Completed the revised Traditional Chinese version | 88 | 2025-12-15 (ROC year 114, December 15) |
+| ZH-TW: V2.2<br>EN: V1.0 | Completed the third draft of the Traditional Chinese version and released the first English translation | 127 | 2025-12-24 (ROC year 114, December 24) |
+| V2.3 | Added an appendix link to the Open Source AI Definition (OSAID).<br>Updated the Chinese and English versions to use aligned versioning and structure. | 113 | 2026-05-15 (ROC year 115, May 15) |
 
 ## Table of Contents
 
@@ -193,7 +197,7 @@ Federal Acquisition Regulation is the main source for IT service acquisition reg
 
 ![Screenshot of the Federal Source Code Policy memorandum cover page with the policy title and publication details](assets/en-image10.png "Federal Source Code Policy memorandum")
 
-*Resource: https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf*
+*Resource: [Federal Source Code Policy memorandum https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf).*
 
 ### 1.3 Basic Concept and Licensing Agreement Types of Open-Source Software <span id="1-3-basic-concept-and-licensing-agreement-types-of-open-source-software"></span>
 
@@ -384,19 +388,19 @@ This section will discuss benchmark case studies in the practical implementation
 
 ##### Benchmark Case Study of the Implementation of Open-Source Software Policy
 
-##### Case Study 1: KKCompany, the Model Company for Implementing Open-Source Policy in Taiwan
+###### Case Study 1: KKCompany, the Model Company for Implementing Open-Source Policy in Taiwan
 
 Taiwan-based media technology group KKCompany became the first enterprise to obtain third-party certification under OpenChain ISO/IEC 5230. With the assistance of the Open Culture Foundation (OCF), KKCompany integrated open-source compliance processes into its core business operations. Its motivation was to “empower educational developers” and to build a “trustworthy software supply chain.” This certification not only brought tangible benefits for the company’s operation—such as reducing errors and accelerating time to market—but also demonstrated to global partners KKCompany’s respect for intellectual property rights and commitment to the open-source ecosystem.
 
-##### Case Study 2: Department of Homeland Security, the USA
+###### Case Study 2: Department of Homeland Security, the USA
 
 The U.S. Department of Homeland Security (DHS), through its Cybersecurity and Infrastructure Security Agency (CISA), serves as the national cyber defense authority. Its open-source policy framework places a strong emphasis on security and risk management, treating open-source software as a component of critical infrastructure and stressing the importance of continuous monitoring and protection.
 
-##### Case Study 3: Centers for Medicare & Medicaid Services (CMS)
+###### Case Study 3: Centers for Medicare & Medicaid Services (CMS)
 
 The Centers for Medicare & Medicaid Services (CMS), whose core mission is to provide public healthcare and health services, places greater emphasis in its open-source policy on enhancing transparency, promoting code reuse and collaborating with communities to improve public healthcare systems. CMS has also established a dedicated Open-Source Program Office (OSPO) and developed a series of reusable tools—such as repository templates and maturity models—that significantly lower the barrier to open-source adoption not only within its subordinate agencies but also accelerate the sharing of public code with partner organizations.
 
-##### Case Study 4: Department of Information Technology, Taipei City Government
+###### Case Study 4: Department of Information Technology, Taipei City Government
 
 “Taipei City Pass” is the open-source version of the “Taipei Pass” service. The Department of Information Technology of the Taipei City Government collaborated with contracted vendors to preserve the full development history of the framework architecture, front-end code, and associated event websites and released them publicly on the “Public Code Platform” under the department’s name. In contract design, the department pre-defined governance rules for post-release open-source management, clearly specifying processes for bug reporting, fixes, pull requests (PRs), and version changes—ensuring that the code was not only “released,” but also continuously maintained. The website for the annual “CodeFest” is similarly built on publicly available source code, iteratively updated each year, and combined with hackathons and hands-on activities. Participants improve user experience on the website while also reporting and fixing real-world operational issues for Taipei City Pass. Although Taipei City is still in the process of establishing a unified and citywide open-source policy, its concrete implementation of open-source clauses and governance mechanisms through individual projects and vendor maintenance contracts has already demonstrated a viable “progressive open-source pathway,” gradually transforming citizen service portals into sustainable and evolving public digital assets.
 
@@ -447,7 +451,7 @@ The OpenChain framework mainly consists of two international standards: ISO/IEC 
 
 ISO/IEC 5230, an international standard for “license compliance” in open-source software, defines the core requirements that an open-source compliance program must meet. When an organization follows this standard, it signifies the establishment of a systematic approach to managing open-source licenses, thereby significantly reducing legal risks. Its core requirements, mapped to the software lifecycle, can be summarized into four key practice areas: Program Foundation, Management and Support, Process Implementation, and Community Engagement, as detailed in the table below.
 
-##### Keys to the Implementation of ISO/IEC 5230
+###### Keys to the Implementation of ISO/IEC 5230
 
 | Key | Sub-item | Description |
 | --- | --- | --- |
@@ -477,7 +481,7 @@ Following license compliance, the OpenChain program further applied the same pro
 
 The requirements of ISO/IEC 18974 correspond structurally to those of ISO/IEC 5230, together forming a comprehensive governance framework. Its key practice areas, mapped to the software development lifecycle as described in the table below:
 
-##### ISO/IEC 18974 Key Practices
+###### ISO/IEC 18974 Key Practices
 
 | Key | Sub-item | Description |
 | --- | --- | --- |
@@ -898,29 +902,12 @@ Since 2023, the Ministry of Digital Affairs has organized seminars and related a
 
 ## Appendix III: Links <span id="appendix-iii-links"></span>
 
-Public Code Platform by MODA:
-
-https://code.gov.tw/
-
-Standard for Public Code- Guidance for government open source collaboration:
-
-https://standard.publiccode.net/
-
-Open Source Initiative:
-
-https://opensource.org/
-
-Open Source AI Definition:
-
-https://opensource.org/ai/open-source-ai-definition
-
-OSI Approved Licenses:
-
-https://opensource.org/licenses
-
-Real-world case study of open-source software and public code-OpenDesk:
-
-https://www.openDesk.eu/en/about
+- [Public Code Platform by MODA https://code.gov.tw/](https://code.gov.tw/)
+- [Standard for Public Code: Guidance for government open-source collaboration https://standard.publiccode.net/](https://standard.publiccode.net/)
+- [Open Source Initiative https://opensource.org/](https://opensource.org/)
+- [Open Source AI Definition https://opensource.org/ai/open-source-ai-definition](https://opensource.org/ai/open-source-ai-definition)
+- [OSI Approved Licenses https://opensource.org/licenses](https://opensource.org/licenses)
+- [openDesk real-world case study of open-source software and Public Code https://www.openDesk.eu/en/about](https://www.openDesk.eu/en/about)
 
 ## Appendix IV: Requirements Planning Self-Assessment Checklist <span id="appendix-iv-requirements-planning-self-assessment-checklist"></span>
 
@@ -929,6 +916,8 @@ https://www.openDesk.eu/en/about
 This self-assessment checklist is designed to assist public-sector IT project officers when introducing open-source software or public code. It can be used during the project formulation stage or while drafting the “Requirements Specification” to conduct an initial self-review. The purpose is to help clarify considerations for subsequent project implementation, enabling a smoother, step-by-step integration of open-source concepts and compliance governance together with cooperating vendors.
 
 IT project officers may, based on their agency’s needs, refer to the assessment items for each stage and evaluate the level of adoption with reference to the “Benefits to the Agency.” They may also consult the concrete implementation recommendations to adjust or review their requirements specification, thereby progressively putting open-source practices into action.
+
+Accessibility note: In the following checklist tables, the empty square symbol (□) indicates an unchecked checkbox option.
 
 #### I. Project Requirement Planning and Procurement Evaluation
 
@@ -991,6 +980,8 @@ IT project officers may, based on their agency’s needs, refer to the assessmen
 ### License Compliance Assessment Checklist for Public-Sector Use of Open-Source Software or Public Code
 
 This assessment checklist is divided into three main sections: (1) basic project information, (2) review items for the use of open-source software or public code, and (3) designating development outcomes as public code. It helps agencies identify risks associated with adopting open-source software and plan corresponding risk control measures.
+
+Accessibility note: In the following checklist tables, the empty square symbol (□) indicates an unchecked checkbox option.
 
 #### Basic Project Information
 
@@ -1083,13 +1074,13 @@ For projects using open-source software or public code, assess the feasibility o
 [^3]: Eric Raymond: Generally recognized as one of the main leaders for the open-source movement since 1997. He is also one of the founders of the Open-Source Initiative.
 [^4]: The Cathedral and the Bazaar: These are two different development models for free software. Under the Cathedral Model, the software is managed and monitored by a dedicated team. Under the Bazaar Model, the software is made public during its development, allowing public collaboration for fast correction and rapid releases.
 [^5]: Mozilla Firefox and Thunderbird: Mozilla’s two main open-source projects. Firefox is a web browser that evolved from Netscape; Thunderbird is an email application, which also supports personal information management (such as “Contacts”).
-[^6]: Open-Source Definition, OSD: https://opensource.org/osd
-[^7]: Comparison of the usage statistics of Linux vs. Windows for websites: https://w3techs.com/technologies/comparison/os-linux%2Cos-windows
-[^8]: Docker Engine: https://docs.docker.com/engine/#licensing
-[^9]: Kubernetes: https://kubernetes.io/
-[^10]: PyTorch: https://en.wikipedia.org/wiki/PyTorch
-[^11]: Tensorflow: https://github.com/tensorflow/
-[^12]: NumPy: https://en.wikipedia.org/wiki/NumPy
+[^6]: [Open Source Definition (OSD) https://opensource.org/osd](https://opensource.org/osd).
+[^7]: [Comparison of usage statistics for Linux vs. Windows websites https://w3techs.com/technologies/comparison/os-linux%2Cos-windows](https://w3techs.com/technologies/comparison/os-linux%2Cos-windows).
+[^8]: [Docker Engine licensing documentation https://docs.docker.com/engine/#licensing](https://docs.docker.com/engine/#licensing).
+[^9]: [Kubernetes official website https://kubernetes.io/](https://kubernetes.io/).
+[^10]: [PyTorch overview https://en.wikipedia.org/wiki/PyTorch](https://en.wikipedia.org/wiki/PyTorch).
+[^11]: [TensorFlow GitHub repository https://github.com/tensorflow/](https://github.com/tensorflow/).
+[^12]: [NumPy overview https://en.wikipedia.org/wiki/NumPy](https://en.wikipedia.org/wiki/NumPy).
 [^13]: Wiki: A website that allows multiple parties to edit and maintain. Its greatest feature is “collaboration and real-time updates”- meaning that any authorized user can add, edit or delete content on the page without needing any programing knowledge.
 [^14]: IT-Planungsrat: Founded jointly by Germany’s federal government and its federal states with the goal to coordinate the collaboration between the Federal Republic and federal states on IT and e-Government.
 [^15]: Copyleft: A license that protects users’ rights to use the software freely utilizing the current copyright system. Copyleft software licenses are considered protective or reciprocal (in contrast with permissive free software licenses)
@@ -1099,10 +1090,10 @@ For projects using open-source software or public code, assess the feasibility o
 [^19]: Node.js: A JavaScript runtime environment, suitable for processing high-concurrency and asynchronous I/O.
 [^20]: Ruby on Rails: A web application framework written in the Ruby programming language, designed for rapid development with “convention over configuration”.
 [^21]: Boost: A set of high-performance and cross-platform C++ libraries that provides data structures, algorithms and supports new tools. expansion.
-[^22]: Red Hat （2022）: https://www.redhat.com/en/enterprise-open-source-report/2022
+[^22]: [Red Hat Enterprise Open Source Report 2022 https://www.redhat.com/en/enterprise-open-source-report/2022](https://www.redhat.com/en/enterprise-open-source-report/2022).
 [^23]: The UK Government guideline ‘When Code Should Be Open or Closed”: Guidance issued by the UK Government Digital Service that explains the position that public authorities should prioritize releasing code as open source when using or developing software, while also outlining the reasons why code must remain closed in certain circumstances.”
 [^24]: Nextcloud: An open-source cloud storage and collaboration platform similar to Google Drive or Microsoft OneDrive
 [^25]: OS2 Alliance: Offentligt Digitaliseringsfæ llesskab, an open-source community jointly maintained by the public sector and IT vendors in Denmark that believes that “public code owned by the public sector with vendor choice.” OS2 also develops and maintains the government’s IT solutions
-[^26]: FLOSS PSO: A global community led by open-source community volunteers and supported by the OSPO alliance, established specifically for organizations within the public sector that set up or operate OSPOs. It collects and organizes lists and practices of OSPOs from public institutions around the world, promotes experience sharing, policy co-creation, and opportunities for collaboration, and aims to root the spirit of open-source software within governments. Website: https://floss-pso.network/.
+[^26]: FLOSS PSO: A global community led by open-source community volunteers and supported by the OSPO alliance, established specifically for organizations within the public sector that set up or operate OSPOs. It collects and organizes lists and practices of OSPOs from public institutions around the world, promotes experience sharing, policy co-creation, and opportunities for collaboration, and aims to root the spirit of open-source software within governments. See the [FLOSS PSO network https://floss-pso.network/](https://floss-pso.network/).
 [^27]: NHS Digital: NHS Digital established a centralized API management platform and adopted open standards to lower the barriers for third-party service integration, enabling diverse services to continuously expand on a shared modular API architecture and forming a healthy and competitive digital ecosystem. Source: How NHS Digital used API Management to support APIs at scale.
-[^28]: Public Code Standard: A quality framework for open-source projects designed for the public sector. The Chinese version is available at: https://pdis.github.io/publiccodenet.standard/
+[^28]: Public Code Standard: A quality framework for open-source projects designed for the public sector. The Chinese version is available at [Public Code Standard in Traditional Chinese https://pdis.github.io/publiccodenet.standard/](https://pdis.github.io/publiccodenet.standard/).

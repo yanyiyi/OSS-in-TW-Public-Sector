@@ -2,7 +2,7 @@
 
 公部門開源軟體應用參考手冊
 
-Primary original-language version before translation: [Traditional Chinese version（繁體中文原文）](ZH_TW.md)
+Primary original-language version before translation: [Traditional Chinese version（正體中文原文）](ZH_TW.md)
 
 Accessibility note: Checklist tables use the empty square symbol (□) to indicate an unchecked checkbox option. Revision dates use Gregorian dates first, followed by the Republic of China (ROC) calendar date in parentheses. The “Source Page Count” in the revision history refers to the page count of the PDF version.
 
